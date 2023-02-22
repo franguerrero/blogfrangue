@@ -3,6 +3,9 @@
   "name": "www",
   "version": "0.1.0",
   "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop --host 0.0.0.0",
